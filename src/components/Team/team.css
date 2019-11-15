@@ -1,0 +1,56 @@
+.Our_team h3{
+    color:#E0E0E0;
+    font-size:100px;
+    line-height:100px;
+    font-weight:400;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    padding-bottom:10px;
+    padding-right:60px;
+    text-align:right;
+}
+.Our_team img{
+    float: left;
+}
+.Our_team a{
+    float: left;
+    width: 100%;
+}
+.team_info{
+    background:#EE4423;
+    padding:15px;
+}
+
+.team_info h5 {
+    font-size:25px;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    color:#fff;
+}
+.team_info span{
+    font-size:18px;
+    color:#fff;
+    font-weight:200;
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+a:hover{
+    text-decoration:none;;
+}
+
+@media screen and (max-width: 768px) {
+  .our_team{
+      margin-top:30px;
+  }
+  .Our_team h3{
+      text-align: left;
+      font-size:70px;
+      padding-left:15px;
+      line-height: 70px;
+  }
+}
+@media screen and (max-width: 568px) {
+    .team_info h5{
+        font-size:18px;
+    }
+    .team_info span{
+        font-size:14px;
+    }
+}

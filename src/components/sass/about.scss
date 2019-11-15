@@ -1,0 +1,68 @@
+.about-slides {
+    .columns{
+      clear: both;
+    }
+    .section-one{
+      .description {
+        padding: 100px 100px 100px 40px;
+        span{
+          color: #EE4423;
+          font-weight: 700;
+        }
+      };
+    }
+    .section-two{
+      .full{
+        padding:0px;
+      }
+      .title{
+        width: 40%;
+        color: #EE4423;
+        font-weight: 700;
+        padding: 20px 100px 5px 40px;
+        font-size: 45px;
+      }
+      .description {
+        padding: 10px 100px 5px 40px;
+      }
+    }
+    .section-three{
+      .title{
+        color:#D8D8D8;
+        padding: 0px 30px 0px 30px;
+        letter-spacing: 2px;
+        line-height: 1.6;
+        font-size: 60px;
+        margin-bottom: 0px;
+      }
+      .right{
+        float:right;
+      }
+    }
+    .section-four{
+      .title{
+        color:#D8D8D8;
+        padding: 0px 30px 0px 30px;
+        letter-spacing: 2px;
+        line-height: 1.6;
+        font-size: 60px;
+        margin-bottom: 0px;
+      }
+      .description{
+        padding: 0% 20% 2% 20%;
+      }
+    }
+    .section-five{
+      .title{
+        color:#D8D8D8;
+        padding: 0px 30px 0px 30px;
+        letter-spacing: 2px;
+        line-height: 1.6;
+        font-size: 60px;
+        margin-bottom: 0px;
+      }
+      .description{
+        padding: 0% 20% 2% 20%;
+      }
+    }
+}

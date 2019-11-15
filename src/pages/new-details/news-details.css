@@ -1,0 +1,133 @@
+.all_news {
+    padding: 60px 0;
+}
+
+.all_news h1 {
+    font-size: 90px;
+    font-weight: 400;
+    color: #E0E0E0;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    line-height: 90px;
+}
+
+.filter_div {
+    padding-top: 30px;
+}
+
+.filter_div strong {
+    font-size: 15px;
+    color: #3C3C3B;
+}
+
+.filter_div ul {
+    padding-top: 10px;
+}
+
+.filter_div li {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 300;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-right: 1px solid #3C3C3B;
+    line-height: 11px;
+}
+
+.filter_div li:last-child {
+    border: 0px;
+    padding-right: 0px;
+}
+
+.filter_div li:first-child {
+    padding-left: 0px;
+}
+
+.filter_div li a {
+    color: #3C3C3B;
+}
+
+.filter_div li.active-f a {
+    color: #F15D4A;
+}
+
+.filter_div li.active-f {
+    border-color: #F15D4A;
+}
+
+.news_feed {
+    padding-top: 30px;
+}
+
+.news_details {
+    padding-top: 20px;
+    width: 80%;
+    float: right;
+}
+
+.news_details strong {
+    font-size: 40px;
+    color: #3C3C3B;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+.news_details h6 {
+    font-size: 40px;
+    color: #F15D4A;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    padding:40px 0 25px;
+}
+
+.news_details p {
+    font-size: 15px;
+    color: #3C3C3B;
+    padding-top: 25px;
+    line-height:28px;
+}
+
+.instagram_feed {
+    padding-top: 28px;
+    width: 85%;
+    float: right;
+}
+
+.back-btn-up{
+    text-align: center;
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.back-btn-up img{
+    margin-top:70px;
+    display: block;
+    margin-right:30px
+}
+
+@media screen and (max-width:768px){
+    .news_details{
+        margin:0px auto;
+        float: none;
+        width:93%;
+        display: block
+    }
+    .filter_div{
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .instagram_feed{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .instagram_feed img{
+        width:50% !important
+    }
+    .news_details h6{
+        font-size:28px;
+        padding: 10px 0 5px;
+    }
+    .news_details strong{
+        font-size:23px;
+    }
+}

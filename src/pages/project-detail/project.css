@@ -1,0 +1,149 @@
+.project_min{
+  padding:0;
+}
+
+.project_min h1 {
+  font-size: 90px;
+  font-weight: 400;
+  color: #E0E0E0;
+  font-family: 'Source Sans Pro', sans-serif !important;
+  line-height: 90px;
+}
+.project_details h5 {
+  font-size: 90px;
+  font-weight: 400;
+  color: #E0E0E0;
+  font-family: 'Source Sans Pro', sans-serif !important;
+  line-height: 90px;
+  text-align:right;
+}
+.project_banner{
+    position: relative;  
+}
+.project_banner img{
+  position: relative;
+  z-index: 1;
+}
+.banner-text{
+  background:#3a3a3c;
+  color:#fff;
+  width: 92px;
+  height: 100%;
+  -webkit-writing-mode: tb-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+  text-align: right;
+  padding-bottom:10px;
+  position: absolute;
+  right:0px;
+  top:0px;
+  z-index:8;
+}
+
+.banner-text h2{
+  font-family: 'Source Sans Pro', sans-serif !important;
+  font-size: 45px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing:3px;
+}
+.banner-text span{
+  font-family: 'Source Sans Pro', sans-serif !important;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.project_details{
+  padding:25px 0;
+}
+
+.project_details p b{
+  color: #EE4423;
+}
+
+.project_details p, .build2 p{
+  color: #666666;
+  line-height:37px;
+}
+
+.build2{
+  padding-top: 90px;
+}
+
+.build2 p{
+  font-size:22px;
+}
+
+.project_details span{
+  font-size:60px;
+  color:#fff;
+  font-family: 'Source Sans Pro', sans-serif !important;
+  position: absolute;
+  z-index: 5;
+  top:13px;
+  left:50px
+}
+
+.porject-stp3 span{
+  right:50px;
+  left:auto;
+}
+
+.project_details img{
+  position: relative;
+  z-index: 2;
+}
+
+.project_details h5 span{
+  position: relative;
+  left:auto;
+  top:auto;
+  color:#EE4423;
+  font-size:90px;
+}
+
+.project-info{
+  padding:60px 0;
+}
+
+.project-info ul li{
+  padding-top:10px;
+}
+
+.project-info ul li span{
+  color:#EE4423;
+}
+
+.project-info h6{
+  font-size:20px;
+  font-family: 'Source Sans Pro', sans-serif !important;
+  font-weight: 700;
+  padding-top:5px;
+}
+.social_links ul{
+  padding-top:15px;
+}
+.social_links li{
+  display: inline-block;
+  padding-right:20px;
+  padding-top:10px;
+}
+
+@media screen and (max-width: 768px) {
+  .banner-text h2{
+    font-size:6vw;
+  }
+  .banner-text span{
+    font-size:14px;
+  }
+  .build2{
+    padding-top:0px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .banner-text{
+    width:58px;
+  }
+}

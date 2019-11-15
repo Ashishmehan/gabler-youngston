@@ -1,0 +1,77 @@
+.Contact-min{
+    padding:80px 0 60px;
+}
+
+.Contact-min h1{
+    font-size:90px;
+    font-weight:400;
+    color:#E0E0E0;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    line-height:90px;
+}
+.Contact-min a{
+    color:#EE4423;
+    margin-top:3px;
+    display:inline-block;
+    font-size:22px;
+}
+.Contact-min span{
+    display:block;
+    padding-top:15%;
+    font-size:22px;
+}
+.Contact-min span a{
+    color:#4F4F4F;
+}
+.Contact-min strong{
+    color:#F15D4A;
+    font-weight: 400;
+    padding-bottom:4px;
+    display: block;
+    font-size:17px;
+}
+.Contact-min address{
+    color:#4F4F4F;
+    padding-bottom:0px;
+    margin-bottom:0px;
+    font-size:15px;
+}
+.contact-f {
+    padding-bottom:15px;
+    padding-top:10px;
+}
+.contact-f a{
+    margin-top:0px;
+    color:#4F4F4F;
+    font-size: 15px;
+}
+.contact-f span{
+    padding-top:0px;
+    font-size:15px;
+}
+
+.contact-f p{
+    font-size:15px;
+}
+
+@media (max-width:930px){
+    .Contact-min h1{
+        font-size:75px;
+        line-height:75px;
+    }
+}
+
+@media (max-width:768px){
+    .Contact-min h1{
+        font-size:12vw;
+        line-height:12vw;
+    }
+    .Contact-min a{
+        font-size:18px;
+    }
+}
+@media (max-width:568px){
+    .Contact-min a{
+        font-size:14px;
+    }
+}
